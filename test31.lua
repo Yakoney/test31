@@ -11,14 +11,14 @@ local get_service = setmetatable({}, {
 })
 
 -- Services
-local workspace               = get_service("Workspace")
-local players                 = get_service("Players")
-local replicated_storage      = get_service("ReplicatedStorage")
-local run_service             = get_service("RunService")
-local user_input_service      = get_service("UserInputService")
-local virtual_input_manager   = get_service("VirtualInputManager")
-local virtual_user            = get_service("VirtualUser")
-local marketplace_service     = get_service("MarketplaceService")
+local workspace            = get_service.Workspace
+local players              = get_service.Players
+local replicated_storage   = get_service.ReplicatedStorage
+local run_service          = get_service.RunService
+local user_input_service   = get_service.UserInputService
+local virtual_input_manager= get_service.VirtualInputManager
+local virtual_user         = get_service.VirtualUser
+local marketplace_service  = get_service.MarketplaceService
 
 -- Player and world
 local local_player = players.LocalPlayer
